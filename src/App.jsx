@@ -6,10 +6,10 @@ import Phrase from './Phrase'
 function App() {
 
   return (
-    <>
+    <div className='app'>
      <Phrase 
      data={phrases}/>
-    </>
+    </div>
   )
 }
 
