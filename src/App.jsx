@@ -1,12 +1,14 @@
-import { useState } from 'react'
+
 import './App.css'
+import phrases from './phrases.json'
+import Phrase from './Phrase'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     
+     <Phrase 
+     data={phrases}/>
     </>
   )
 }
